@@ -1,0 +1,146 @@
+body {
+  background-image: url('video12.gif');
+  background-repeat: repeat;
+}
+
+/* Incluir la fuente de tipo "font-face" */
+@font-face {
+  font-family: '8-bit';
+  src: url('8-bit-hud.ttf') format('truetype');
+}
+
+/* Aplicar la fuente a todos los elementos de la página */
+* {
+  font-family: '8-bit', sans-serif;
+}
+
+/* Estilos para el título de la empresa */
+h1 {
+  /* Tamaño y fuente */
+  font-size: 2em;
+  /* Alineación y margen */
+  text-align: center;
+  margin: 0;
+  /* Color y sombra */
+  color: #f00;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para la descripción de la empresa */
+p {
+  /* Tamaño y fuente */
+  font-size: 1em;
+  /* Margen */
+  margin: 0;
+  /* Color */
+  color: #f00;
+}
+
+/* Estilos para el título de la sección de proyectos */
+h2 {
+  /* Tamaño y fuente */
+  font-size: 1.4em;
+  /* Alineación y margen */
+  text-align: left;
+  margin: 50px 0 20px 0;
+  /* Color */
+  color: #f00;
+}
+
+/* Estilos para la lista de proyectos */
+ul {
+  /* Margen y padding */
+  margin: 0;
+  padding: 0;
+  /* Lista sin viñetas */
+  list-style: none;
+}
+
+/* Estilos para los elementos de la lista de proyectos */
+li {
+  /* Margen y padding */
+  margin: 20px;
+  padding: 20px;
+  /* Fondo y borde */
+  background-color: #000;
+  border-radius: 5px;
+  /* Sombra */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo por defecto de la sección de proyectos */
+#projects li {
+  width: 300px;
+  height: 200px;
+  /* Otros estilos */
+}
+
+/* Estilo al pasar el cursor sobre la sección de proyectos "Dragon Fighter" */
+#projects li.dragon-fighter:hover {
+  width: 400px;
+  height: 300px;
+  /* Agregar una imagen de fondo al elemento */
+  background-image: url('dragonfighter.png');
+  /* Otros estilos */
+<iframe frameborder="0" src="https://itch.io/embed/1841075?border_width=2&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=b40606&amp;border_color=a80707" width="554" height="169"><a href="https://anashexgames.itch.io/dragon-fighter-a">Dragon Fighter(ALPHA) by anashexgames</a></iframe>
+}
+
+/* Estilo al pasar el cursor sobre la sección de proyectos "Matias Demo" */
+#projects li.matias-demo:hover {
+  width: 400px;
+  height: 300px;
+  /* Agregar una imagen de fondo al elemento */
+  background-image: url('matias.png');
+  /* Otros estilos */
+}
+
+/* Estilo al pasar el cursor sobre la sección de proyectos "HannaBot" */
+#projects li.hannabot:hover {
+  width: 400px;
+  height: 300px;
+  /* Agregar una imagen de fondo al elemento */
+  background-image: url('hannabot.png');
+  /* Otros estilos */
+}
+
+/* Estilos para los títulos de los proyectos */
+h3 {
+  /* Tamaño y fuente */
+  font-size: 1.3em;
+  /* Margen */
+  margin: 0;
+  /* Color */
+  color: #f00;
+}
+
+/* Estilos para las descripciones de los proyectos */
+p {
+  /* Tamaño y fuente */
+  font-size: 0.6em;
+  /* Margen */
+  margin: 10px 0 0 0;
+  /* Color */
+  color: #fff;
+}
+
+/* Estilo para el menú desplegable */
+.menu {
+  background-color: black; /* Color de fondo del menú */
+  color: white; /* Color de la fuente de las opciones */
+}
+
+/* Estilo para las opciones del menú */
+.menu-option {
+  background-color: black; /* Color de fondo de las opciones */
+  color: white; /* Color de la fuente de las opciones */
+  font-size: 14px; /* Tamaño de la fuente de las opciones */
+}
+
+/* Estilo para el menú */
+.menu-nav {
+  position: absolute; /* Posición absoluta del menú */
+  top: 0; /* Posición en la parte superior de la página */
+  right: 0; /* Posición en la esquina derecha de la página */
+  display: flex; /* Distribución de los elementos en línea */
+  align-items: center; /* Alineación vertical de los elementos */
+}
