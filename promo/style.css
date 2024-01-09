@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="style.css">
 body {
   background-image: url('video12.gif');
   background-repeat: repeat;
@@ -9,16 +10,16 @@ body {
   src: url('8-bit-hud.ttf') format('truetype');
 }
 
-/* Aplicar la fuente a todos los elementos de la página */
+/* Aplicar la fuente a todos los elementos de la pÃ¡gina */
 * {
   font-family: '8-bit', sans-serif;
 }
 
-/* Estilos para el título de la empresa */
+/* Estilos para el tÃ­tulo de la empresa */
 h1 {
-  /* Tamaño y fuente */
+  /* TamaÃ±o y fuente */
   font-size: 2em;
-  /* Alineación y margen */
+  /* AlineaciÃ³n y margen */
   text-align: center;
   margin: 0;
   /* Color y sombra */
@@ -26,9 +27,9 @@ h1 {
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
-/* Estilos para la descripción de la empresa */
+/* Estilos para la descripciÃ³n de la empresa */
 p {
-  /* Tamaño y fuente */
+  /* TamaÃ±o y fuente */
   font-size: 1em;
   /* Margen */
   margin: 0;
@@ -36,11 +37,11 @@ p {
   color: #f00;
 }
 
-/* Estilos para el título de la sección de proyectos */
+/* Estilos para el tÃ­tulo de la secciÃ³n de proyectos */
 h2 {
-  /* Tamaño y fuente */
+  /* TamaÃ±o y fuente */
   font-size: 1.4em;
-  /* Alineación y margen */
+  /* AlineaciÃ³n y margen */
   text-align: left;
   margin: 50px 0 20px 0;
   /* Color */
@@ -52,7 +53,7 @@ ul {
   /* Margen y padding */
   margin: 0;
   padding: 0;
-  /* Lista sin viñetas */
+  /* Lista sin viÃ±etas */
   list-style: none;
 }
 
@@ -68,14 +69,14 @@ li {
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo por defecto de la sección de proyectos */
+/* Estilo por defecto de la secciÃ³n de proyectos */
 #projects li {
   width: 300px;
   height: 200px;
   /* Otros estilos */
 }
 
-/* Estilo al pasar el cursor sobre la sección de proyectos "Dragon Fighter" */
+/* Estilo al pasar el cursor sobre la secciÃ³n de proyectos "Dragon Fighter" */
 #projects li.dragon-fighter:hover {
   width: 400px;
   height: 300px;
@@ -85,7 +86,7 @@ li {
 <iframe frameborder="0" src="https://itch.io/embed/1841075?border_width=2&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=b40606&amp;border_color=a80707" width="554" height="169"><a href="https://anashexgames.itch.io/dragon-fighter-a">Dragon Fighter(ALPHA) by anashexgames</a></iframe>
 }
 
-/* Estilo al pasar el cursor sobre la sección de proyectos "Matias Demo" */
+/* Estilo al pasar el cursor sobre la secciÃ³n de proyectos "Matias Demo" */
 #projects li.matias-demo:hover {
   width: 400px;
   height: 300px;
@@ -94,7 +95,7 @@ li {
   /* Otros estilos */
 }
 
-/* Estilo al pasar el cursor sobre la sección de proyectos "HannaBot" */
+/* Estilo al pasar el cursor sobre la secciÃ³n de proyectos "HannaBot" */
 #projects li.hannabot:hover {
   width: 400px;
   height: 300px;
@@ -103,9 +104,9 @@ li {
   /* Otros estilos */
 }
 
-/* Estilos para los títulos de los proyectos */
+/* Estilos para los tÃ­tulos de los proyectos */
 h3 {
-  /* Tamaño y fuente */
+  /* TamaÃ±o y fuente */
   font-size: 1.3em;
   /* Margen */
   margin: 0;
@@ -115,7 +116,7 @@ h3 {
 
 /* Estilos para las descripciones de los proyectos */
 p {
-  /* Tamaño y fuente */
+  /* TamaÃ±o y fuente */
   font-size: 0.6em;
   /* Margen */
   margin: 10px 0 0 0;
@@ -123,24 +124,24 @@ p {
   color: #fff;
 }
 
-/* Estilo para el menú desplegable */
+/* Estilo para el menÃº desplegable */
 .menu {
-  background-color: black; /* Color de fondo del menú */
+  background-color: black; /* Color de fondo del menÃº */
   color: white; /* Color de la fuente de las opciones */
 }
 
-/* Estilo para las opciones del menú */
+/* Estilo para las opciones del menÃº */
 .menu-option {
   background-color: black; /* Color de fondo de las opciones */
   color: white; /* Color de la fuente de las opciones */
-  font-size: 14px; /* Tamaño de la fuente de las opciones */
+  font-size: 14px; /* TamaÃ±o de la fuente de las opciones */
 }
 
-/* Estilo para el menú */
+/* Estilo para el menÃº */
 .menu-nav {
-  position: absolute; /* Posición absoluta del menú */
-  top: 0; /* Posición en la parte superior de la página */
-  right: 0; /* Posición en la esquina derecha de la página */
-  display: flex; /* Distribución de los elementos en línea */
-  align-items: center; /* Alineación vertical de los elementos */
+  position: absolute; /* PosiciÃ³n absoluta del menÃº */
+  top: 0; /* PosiciÃ³n en la parte superior de la pÃ¡gina */
+  right: 0; /* PosiciÃ³n en la esquina derecha de la pÃ¡gina */
+  display: flex; /* DistribuciÃ³n de los elementos en lÃ­nea */
+  align-items: center; /* AlineaciÃ³n vertical de los elementos */
 }
