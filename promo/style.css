@@ -1,5 +1,6 @@
 body {
-  background-color: #000;
+  background-image: url('rect32.png');
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 /* Incluir la fuente de tipo "font-face" */
 @font-face {
